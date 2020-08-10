@@ -5,7 +5,7 @@ document.addEventListener("deviceready", function(){
   var button = $('<button>SUM</button>');
 
   button.on('click', function () {
-    alert(123);
+    alert(parseInt(number1.val()) + parseInt(number2.val()));
   });
 
   app.append(number1);
